@@ -27,7 +27,7 @@ START-OF-SELECTION.
     WRITE: / 'Sonuc:', gv_sonuc.
     WRITE: / 'Mesaj:', gv_mes.
   ELSEIF sy-subrc EQ 1.
-    WRITE: / 'Hata: S#f#ra b�lme hatas#!'.
+    WRITE: / 'Hata: Sıfıra bölme hatası!'.
   ELSEIF sy-subrc EQ 2.
-    WRITE: / 'Hata: Di#er bir hata olustu!'.
+    WRITE: / 'Hata: Diğer bir hata oluştu!'.
   ENDIF.

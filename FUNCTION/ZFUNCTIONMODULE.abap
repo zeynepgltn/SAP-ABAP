@@ -12,14 +12,14 @@ FUNCTION ZBK_FONKSIYONLAR.
 *"      DIVIDED_BY_ZERO
 *"----------------------------------------------------------------------
 
-IF iv_num2 IS INITIAL.
+*IF iv_num2 EQ 0 denebilir
+IF iv_num2 IS INITIAL. "default değerine erişmek
   RAISE DIVIDED_BY_ZERO.
 ENDIF.
 
 
 ev_sonuc = iv_num1 / iv_num2.
 
-cv_mes = 'De#i#tirilmi# mesaj.'.
-
+cv_mes = 'Değiştirilmiş mesaj.'.
 
 ENDFUNCTION.
